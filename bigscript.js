@@ -1,7 +1,7 @@
 console.log("SNACK 1\n---------------")
 
-var num1 = prompt("Inserisci numero")
-var num2 = prompt("Inserisci numero")
+var num1 = parseInt(prompt("Inserisci numero"))
+var num2 = parseInt(prompt("Inserisci numero"))
 
 if(num1>num2){
   console.log("Il PRIMO numero è maggiore")
